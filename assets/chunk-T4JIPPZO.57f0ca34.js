@@ -1,0 +1,1 @@
+import{W as m}from"./chunk-3VYIPD3A.3bc21d00.js";async function a(n,e){let o=e.type;if(o==="svg"){let t=decodeURIComponent(n.split(",")[1]);return new Blob([t],{type:"image/svg+xml"})}let i=await m(n,e);return new Promise(t=>i.toBlob(l=>t(l),`image/${o}`,e.quality))}export{a as m};

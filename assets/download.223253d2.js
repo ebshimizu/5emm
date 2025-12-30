@@ -1,0 +1,1 @@
+function c(n,e,t){const o=document.createElement("a"),a=new Blob([n],{type:t});o.href=URL.createObjectURL(a),o.download=e,o.click()}function s(n,e){c(JSON.stringify(n),e,"application/json")}export{c as d,s};
