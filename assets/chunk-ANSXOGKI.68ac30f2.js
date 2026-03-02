@@ -1,0 +1,1 @@
+import{W as a}from"./chunk-3VYIPD3A.b10e1a04.js";async function o(r,t){let i=await a(r,t),e=new Image;return e.src=i.toDataURL(`image/${t.format}`,t.quality),await e.decode(),e.style.width=`${i.width/t.dpr}px`,e.style.height=`${i.height/t.dpr}px`,e}export{o as d};
